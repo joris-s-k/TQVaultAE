@@ -723,6 +723,27 @@ public class SackPanel : Panel, IScalingControl
 	}
 
 	/// <summary>
+	/// Selects all highlighted items in the sack
+	/// </summary>
+	public void SelectAllHighlightedItems()
+	{
+		if (this.Sack != null && !this.Sack.IsEmpty)
+		{
+			if (this.selectedItems != null)
+				this.ClearSelection();
+
+			//List<Item> itemsInSack = (List<Item>)this.userContext.HighlightedItems.Intersect(this.Sack);
+			foreach (Item item in this.userContext.HighlightedItems)
+			{
+				if (this.Sack.Contains(item))
+					this.SelectItem(item);
+			}
+
+			this.Invalidate();
+		}
+	}
+
+	/// <summary>
 	/// Merges the items from two sacks into one sack
 	/// </summary>
 	/// <param name="destination">sack number where we are storing the combined sack</param>
@@ -3557,6 +3578,9 @@ public class SackPanel : Panel, IScalingControl
 
 		if (e.KeyData == (Keys.Control | Keys.A))
 			this.SelectAllItems();
+
+		if (e.KeyData == (Keys.Control | Keys.G))
+			this.SelectAllHighlightedItems();
 
 		if (e.KeyData == (Keys.Control | Keys.D))
 			this.OnClearAllItemsSelected(this, new SackPanelEventArgs(null, null));

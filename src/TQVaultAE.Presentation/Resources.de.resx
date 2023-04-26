@@ -559,7 +559,7 @@ Soll es Überschrieben werden?</value>
     <value>Lager</value>
   </data>
   <data name="ResultsContainerType" xml:space="preserve">
-    <value>Behältertype</value>
+    <value>Behältertyp</value>
   </data>
   <data name="ResultsContainerVault" xml:space="preserve">
     <value>Tresor</value>
@@ -716,7 +716,7 @@ langsame Netzwerkverbindung besteht.</value>
     <value>Wählen Sie bitte den Pfad aus, wo sich die Titan Quest Spieldaten befinden.</value>
   </data>
   <data name="SettingsBrowseVault" xml:space="preserve">
-    <value>Wählen Sie bitte den Pfad aus, wo sich die TQVault Tresor-Datenbefinden.</value>
+    <value>Wählen Sie bitte den Pfad aus, wo sich die TQVault Tresor-Daten befinden.</value>
   </data>
   <data name="SettingsDetectGamePath" xml:space="preserve">
     <value>Autodetect Spiel-Pfade</value>
@@ -803,7 +803,7 @@ aktuellen Einstellungen zu übernehmen.</value>
 um den Titel-Screen zu Schließen.</value>
   </data>
   <data name="SettingsTitle" xml:space="preserve">
-    <value>Konfigurationseinstellungen</value>
+    <value>Einstellungen</value>
   </data>
   <data name="StashNotFound" xml:space="preserve">
     <value>Kann keine Lager-Datei finden.</value>
@@ -951,7 +951,7 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Reliktgewölbe</value>
   </data>
   <data name="SettingsAllowEditCE" xml:space="preserve">
-    <value>Zeichenbearbeitungsfunktionen zulassen</value>
+    <value>Charakterbearbeitung zulassen</value>
   </data>
   <data name="CEAttributePoints" xml:space="preserve">
     <value>Attributpunkte</value>
@@ -975,10 +975,10 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Intelligenz</value>
   </data>
   <data name="CELevel" xml:space="preserve">
-    <value>Niveau</value>
+    <value>Level</value>
   </data>
   <data name="CELeveling" xml:space="preserve">
-    <value>Nivellierung</value>
+    <value>Leveln</value>
   </data>
   <data name="CEMana" xml:space="preserve">
     <value>Mana</value>
@@ -996,7 +996,7 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Bearbeiten</value>
   </data>
   <data name="CurrentLevel" xml:space="preserve">
-    <value>Niveau</value>
+    <value>Level</value>
   </data>
   <data name="Class" xml:space="preserve">
     <value>Klasse</value>
@@ -1017,7 +1017,7 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Attributpunkte</value>
   </data>
   <data name="BaseStrength" xml:space="preserve">
-    <value>Basisstr</value>
+    <value>Basis Str</value>
   </data>
   <data name="BaseDexterity" xml:space="preserve">
     <value>Base Dex</value>
@@ -1035,19 +1035,19 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Spielzeit</value>
   </data>
   <data name="NumberOfDeaths" xml:space="preserve">
-    <value>Todesfälle</value>
+    <value>Tode</value>
   </data>
   <data name="NumberOfKills" xml:space="preserve">
-    <value>Tötet</value>
+    <value>Kills</value>
   </data>
   <data name="ExperienceFromKills" xml:space="preserve">
     <value>XP von Kills</value>
   </data>
   <data name="HealthPotionsUsed" xml:space="preserve">
-    <value>Gesundheitstöpfe</value>
+    <value>Heiltränke</value>
   </data>
   <data name="ManaPotionsUsed" xml:space="preserve">
-    <value>Mana Pots</value>
+    <value>Manatränke</value>
   </data>
   <data name="MaxLevel" xml:space="preserve">
     <value>Maximales Level</value>
