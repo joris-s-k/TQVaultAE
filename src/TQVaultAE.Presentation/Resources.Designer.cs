@@ -4125,6 +4125,15 @@ namespace TQVaultAE.Presentation {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change Item Seed (Force).
+        /// </summary>
+        public static string SackPanelMenuSeedForce {
+            get {
+                return ResourceManager.GetString("SackPanelMenuSeedForce", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Create Set Items.
         /// </summary>
         public static string SackPanelMenuSet {
