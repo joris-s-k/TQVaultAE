@@ -688,13 +688,13 @@ Wählen Sie eine Zahl zwischen 1 und 32767 aus</value>
     <value>Item-Seed ändern</value>
   </data>
   <data name="SettingsAllowCopy" xml:space="preserve">
-    <value>Das Kopieren von Gegenständen erlauben</value>
+    <value>Kopieren von Gegenständen erlauben</value>
   </data>
   <data name="SettingsAllowCopyTT" xml:space="preserve">
     <value>Aktiviert die Kopier-Option im Kontextmenü.</value>
   </data>
   <data name="SettingsAllowEdit" xml:space="preserve">
-    <value>Die Editier-Möglichkeiten von Gegenständen erlauben</value>
+    <value>Bearbeiten von Gegenständen erlauben</value>
   </data>
   <data name="SettingsAllowEditTT" xml:space="preserve">
     <value>Aktiviert die Editiermöglichkeiten im Kontextmenü.
@@ -951,7 +951,7 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Reliktgewölbe</value>
   </data>
   <data name="SettingsAllowEditCE" xml:space="preserve">
-    <value>Charakterbearbeitung zulassen</value>
+    <value>Bearbeiten von Charakteren erlauben</value>
   </data>
   <data name="CEAttributePoints" xml:space="preserve">
     <value>Attributpunkte</value>
@@ -978,7 +978,7 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <value>Level</value>
   </data>
   <data name="CELeveling" xml:space="preserve">
-    <value>Leveln</value>
+    <value>Leveling</value>
   </data>
   <data name="CEMana" xml:space="preserve">
     <value>Mana</value>
@@ -1075,7 +1075,7 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
     <comment>Substitute for missing tag for "Relic"</comment>
   </data>
   <data name="TextTag_tagArtifact" xml:space="preserve">
-    <value>Artekaft</value>
+    <value>Artefakt</value>
     <comment>Substitute for missing tag for "Artifact"</comment>
   </data>
   <data name="ItemEmbers" xml:space="preserve">
@@ -1083,5 +1083,49 @@ Hier ist ein komplexes Beispiel: 'arctic &amp; frost @schwert $ episch | selten'
   </data>
   <data name="SackPanelMenuSeedForce" xml:space="preserve">
     <value>Item-Seed ändern (Force)</value>
+  </data>
+  <data name="TextTag_tagDye" xml:space="preserve">
+    <value>Farbstoff</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagItemBattleStaff" xml:space="preserve">
+    <value>Stab</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagItemCharm" xml:space="preserve">
+    <value>Charm</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagItemLance" xml:space="preserve">
+    <value>Speer</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagItemWarBlade" xml:space="preserve">
+    <value>Schwert</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagItemWarBow" xml:space="preserve">
+    <value>Bogen</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagItemWarShield" xml:space="preserve">
+    <value>Schild</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagQuestItem" xml:space="preserve">
+    <value>Questitem</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_tagSRemove" xml:space="preserve">
+    <value>Entferne</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_x2tagThrownWeapon" xml:space="preserve">
+    <value>{^s}Wurfwaffe</value>
+    <comment>Substitution</comment>
+  </data>
+  <data name="TextTag_xtagEnchant02" xml:space="preserve">
+    <value>Arkane Formel</value>
+    <comment>Substitution</comment>
   </data>
 </root>
